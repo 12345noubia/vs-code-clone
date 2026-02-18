@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: vs-code-clone
+    runtime: node
+    buildCommand: npm install && npm run build
+    startCommand: npm run build && npm run preview
+    envVars:
+      - key: NODE_VERSION
+        value: 18
+    buildFilter:
+      paths:
+        - src/**
+        - package.json
+        - vite.config.ts
+        - index.html
