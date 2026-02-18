@@ -1,7 +1,4 @@
 
-  # Build Functional IDE Web App
-
-  This is a code bundle for Build Functional IDE Web App. The original project is available at https://www.figma.com/design/B48wwVR2aYC0xiNFqNB3yQ/Build-Functional-IDE-Web-App.
 
   ## Running the code
 
